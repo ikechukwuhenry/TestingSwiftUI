@@ -11,8 +11,10 @@
 		040C091224645B4F007CC813 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C091124645B4F007CC813 /* Home.swift */; };
 		040C091424645CE2007CC813 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C091324645CE2007CC813 /* HomeView.swift */; };
 		040C091624659117007CC813 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C091524659117007CC813 /* Utilities.swift */; };
-		040C09182466D814007CC813 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C09172466D814007CC813 /* UpdateList.swift */; };
 		040C091A2466DF44007CC813 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C09192466DF44007CC813 /* UpdateDetail.swift */; };
+		04DB258A24689AA2004A49B7 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB258924689AA2004A49B7 /* UpdateStore.swift */; };
+		04DB258C2468A228004A49B7 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB258B2468A228004A49B7 /* TabBar.swift */; };
+		04DB258E2468AF2E004A49B7 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB258D2468AF2E004A49B7 /* UpdateList.swift */; };
 		04E8AEA22462DAAC004D616B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AEA12462DAAC004D616B /* AppDelegate.swift */; };
 		04E8AEA42462DAAC004D616B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AEA32462DAAC004D616B /* SceneDelegate.swift */; };
 		04E8AEA62462DAAC004D616B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8AEA52462DAAC004D616B /* ContentView.swift */; };
@@ -26,8 +28,10 @@
 		040C091124645B4F007CC813 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		040C091324645CE2007CC813 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		040C091524659117007CC813 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		040C09172466D814007CC813 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		040C09192466DF44007CC813 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		04DB258924689AA2004A49B7 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		04DB258B2468A228004A49B7 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		04DB258D2468AF2E004A49B7 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		04E8AE9E2462DAAC004D616B /* TestingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8AEA12462DAAC004D616B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E8AEA32462DAAC004D616B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,16 +75,18 @@
 				04E8AEA12462DAAC004D616B /* AppDelegate.swift */,
 				04E8AEA32462DAAC004D616B /* SceneDelegate.swift */,
 				04E8AEA52462DAAC004D616B /* ContentView.swift */,
+				04DB258B2468A228004A49B7 /* TabBar.swift */,
 				04E8AEA72462DAAF004D616B /* Assets.xcassets */,
 				04E8AEAC2462DAAF004D616B /* LaunchScreen.storyboard */,
 				04E8AEAF2462DAAF004D616B /* Info.plist */,
 				04E8AEA92462DAAF004D616B /* Preview Content */,
 				040C090F24644D3B007CC813 /* MenuView.swift */,
+				04DB258924689AA2004A49B7 /* UpdateStore.swift */,
 				040C091124645B4F007CC813 /* Home.swift */,
 				040C091324645CE2007CC813 /* HomeView.swift */,
 				040C091524659117007CC813 /* Utilities.swift */,
-				040C09172466D814007CC813 /* UpdateList.swift */,
 				040C09192466DF44007CC813 /* UpdateDetail.swift */,
+				04DB258D2468AF2E004A49B7 /* UpdateList.swift */,
 			);
 			path = TestingSwiftUI;
 			sourceTree = "<group>";
@@ -167,10 +173,12 @@
 				04E8AEA22462DAAC004D616B /* AppDelegate.swift in Sources */,
 				040C091024644D3B007CC813 /* MenuView.swift in Sources */,
 				040C091A2466DF44007CC813 /* UpdateDetail.swift in Sources */,
-				040C09182466D814007CC813 /* UpdateList.swift in Sources */,
 				040C091624659117007CC813 /* Utilities.swift in Sources */,
 				040C091224645B4F007CC813 /* Home.swift in Sources */,
+				04DB258E2468AF2E004A49B7 /* UpdateList.swift in Sources */,
+				04DB258A24689AA2004A49B7 /* UpdateStore.swift in Sources */,
 				040C091424645CE2007CC813 /* HomeView.swift in Sources */,
+				04DB258C2468A228004A49B7 /* TabBar.swift in Sources */,
 				04E8AEA42462DAAC004D616B /* SceneDelegate.swift in Sources */,
 				04E8AEA62462DAAC004D616B /* ContentView.swift in Sources */,
 			);

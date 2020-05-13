@@ -16,21 +16,6 @@ struct Home: View {
         ZStack {
             Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1))
                 .edgesIgnoringSafeArea(.all)
-            
-//            VStack {
-//                HStack {
-//                    Text("Watching")
-//                        .font(.system(size: 28, weight: .bold))
-//
-//                    Spacer()
-//
-//                    AvatarView(showProfile: $showProfile)
-//                }
-//                .padding(.horizontal)
-//                .padding(.top, 30)
-//
-//                Spacer()
-//            }
             HomeView(showProfile: $showProfile)
             .padding(.top, 44)
             .background(Color.white)

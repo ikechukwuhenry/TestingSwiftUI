@@ -14,7 +14,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            HStack {
+            HStack(spacing: 12) {
                 Text("Watching")
                     .font(.system(size: 28, weight: .bold))
                 
@@ -34,7 +34,7 @@ struct HomeView: View {
                         .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 10)
                 }   //button
                     .sheet(isPresented: $showUpdate) {
-                        ContentView()
+                        UpdateList()
                 }
             }
             .padding(.horizontal)
@@ -42,7 +42,7 @@ struct HomeView: View {
             .padding(.top, 30)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 30) {
+                HStack(spacing: 20) {
                     ForEach(sectionData) {item in
                         GeometryReader { geometry in
 
@@ -53,9 +53,9 @@ struct HomeView: View {
                         }
                     .frame(width: 275, height: 275)
                     }
-                    .padding(30)
-                    .padding(.bottom, 30)
                 }
+                .padding(30)
+                .padding(.bottom, 30)
             }
             
             Spacer()
